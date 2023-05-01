@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="QueryCache" />
+        <module name="JPQLScalarValues" />
+        <module name="MapGeneratedColumns" />
+        <module name="NamedNativeQuery" />
+        <module name="MapNativeQueryToPojo" />
+        <module name="AssociationBidirectionalManyToMany" />
+        <module name="JoinFetch" />
+        <module name="CriteriaConstructor" />
+        <module name="AssociationBidirectionalManyToOne" />
+        <module name="Formula" />
+        <module name="JPQLUpdate" />
+        <module name="InheritanceSingleTable" />
+        <module name="CriteriaStandardFunction" />
+        <module name="CriteriaCustomFunction" />
+        <module name="AssociationUnidirectionalManyToOne" />
+        <module name="CriteriaQueryPagination" />
+        <module name="JPABootstrapping" />
+        <module name="MapBasicAttributes" />
+        <module name="HibernateJoinUnassociatedEntities" />
+        <module name="QueryTimeout" />
+        <module name="JPQLConstructorExpression" />
+        <module name="HibernateNaturalId" />
+        <module name="AssociationBidirectionalOneToOne" />
+        <module name="PrimaryKeyTableStrategy" />
+        <module name="JPQLCustomFunction" />
+        <module name="DerivedPrimaryKey" />
+        <module name="PrimaryKeyIdentityStrategy" />
+        <module name="DateAndTime" />
+        <module name="JPQLNamedQuery" />
+        <module name="Treat" />
+        <module name="MapNativeQueryToEntity" />
+        <module name="CriteriaDelete" />
+        <module name="QueryPagination" />
+        <module name="JPAMetamodel" />
+        <module name="2ndLevelCache" />
+        <module name="JPQLAdHocQuery" />
+        <module name="AssociationsWithAttributes" />
+        <module name="InheritanceJoined" />
+        <module name="JpqlStandardFunction" />
+        <module name="MapEnumerations" />
+        <module name="AssociationUnidirectionalOneToOne" />
+        <module name="StoredProcedureQuery" />
+        <module name="CommentSQLStatements" />
+        <module name="MapUtilDate" />
+        <module name="PrimaryKey" />
+        <module name="LogSQLStatements" />
+        <module name="CustomSequence" />
+        <module name="HibernateBootstrapping" />
+        <module name="AccessHibernateApi" />
+        <module name="NativeQuery" />
+        <module name="MapOptionalAssociations" />
+        <module name="ResultsAsStreams" />
+        <module name="DatabaseViews" />
+        <module name="InheritanceMappedSuperclass" />
+        <module name="CheckSQLStatementCount" />
+        <module name="CriteriaTuples" />
+        <module name="PrimaryKeyUUID" />
+        <module name="CriteriaQuery" />
+        <module name="InheritanceTablePerClass" />
+        <module name="PrePersistLifecycleEvent" />
+        <module name="JPQLDelete" />
+        <module name="OrderRelationships" />
+        <module name="CustomEnumerationsMapping" />
+        <module name="HibernateMultipleId" />
+        <module name="AssociationUnidirectionalOneToMany" />
+        <module name="AttributeConverterForDateAndTime" />
+        <module name="DefineTableAndSchemaName" />
+        <module name="TransientAttributes" />
+        <module name="CriteriaUpdate" />
+        <module name="SpringBootBootstrapping" />
+        <module name="AssociationUnidirectionalManyToMany" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AssociationBidirectionalManyToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationBidirectionalManyToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationBidirectionalOneToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationUnidirectionalManyToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationUnidirectionalManyToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationUnidirectionalOneToMany" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationUnidirectionalOneToOne" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="AssociationsWithAttributes" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaConstructor" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaCustomFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaDelete" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaQuery" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaQueryPagination" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaStandardFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaTuples" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="CriteriaUpdate" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="DateAndTime" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="HibernateMultipleId" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="HibernateNaturalId" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JPABootstrapping" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JPAMetamodel" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JPQLCustomFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JPQLDelete" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JPQLUpdate" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="JpqlStandardFunction" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="MapOptionalAssociations" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="PrimaryKey" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="PrimaryKeyIdentityStrategy" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="PrimaryKeyTableStrategy" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="PrimaryKeyUUID" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+      <module name="ResultsAsStreams" options="-processor org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" />
+    </option>
+  </component>
+</project>
